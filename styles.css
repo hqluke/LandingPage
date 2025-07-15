@@ -1,0 +1,20 @@
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.header img{
+    width: 150px;
+    height: 50px;    
+}
+
+.top img{
+    width: 300px;
+    height: 150px;    
+}
+
+html{
+    background-color: #1F2937;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
