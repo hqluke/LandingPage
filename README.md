@@ -1,1 +1,1 @@
-# LandingPage
+If i wanted to actually have long text in the middle-text area, I would to flex each image with text underneath in a column, then have all the images/text combos flexed row ways
