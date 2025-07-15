@@ -1,6 +1,6 @@
 img{
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
 }
 
 .header img{
@@ -10,7 +10,7 @@ img{
 
 .top img{
     width: 700px;
-    height: 250px;    
+    height: 350px;    
 }
 
 html{
@@ -52,14 +52,14 @@ a:hover{
     display: flex;
     justify-content: center;
     gap: 300px;
-    margin-top: 100px;
+    padding: 20px 0px;
 }
 
 .top-text{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
 }
 
 .top img{
@@ -67,12 +67,22 @@ a:hover{
     justify-content: center;
 }
 
-.top button{
+.top-button{
     width: 100px;
     background-color: #3882F6;
     color: #f9FAF8;
     border-style: none;
     border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.top-button:hover{
+    background-color: #04AA6D;
+}
+
+.top-button:active{
+    background-color: white;
+    color: black;
 }
 
 .top h1{
@@ -82,4 +92,31 @@ a:hover{
 .top p{
     font-size: 18px;
     color: #f9FAF8;
+}
+
+.middle{
+    background-color: #f9FAF8;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.mid-top-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.mid-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
 }
