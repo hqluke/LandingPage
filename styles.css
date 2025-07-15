@@ -21,6 +21,7 @@ html{
 
 .header{
     display: flex;
+    justify-content: space-around;
 }
 
 .head-image{
@@ -35,6 +36,7 @@ html{
     align-items: center;
     gap: 30px;
     margin-right: 200px;
+    flex-shrink: 0;
 }
 
 a:link, a:active, a:visited{
@@ -44,4 +46,16 @@ a:link, a:active, a:visited{
 
 a:hover{
     color:bisque
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    gap: 550px;
+    margin-top: 100px;
+}
+
+.top-text{
+    display: flex;
+    flex-direction: column;
 }
