@@ -27,7 +27,7 @@ html{
 .head-image{
     display: flex;
     flex: 1;
-    margin-left: 200px;
+    margin-left: 305px;
 }
 
 .head-links{
@@ -35,7 +35,7 @@ html{
     justify-content: space-between;
     align-items: center;
     gap: 30px;
-    margin-right: 200px;
+    margin-right: 305   px;
     flex-shrink: 0;
 }
 
@@ -60,6 +60,7 @@ a:hover{
     flex-direction: column;
     justify-content: space-between;
     align-items: left;
+    flex-shrink: 0;
 }
 
 .top img{
@@ -121,6 +122,7 @@ a:hover{
     gap: 300px;
     padding-top: 20px;
     margin-right: 40px;
+   
 }
 
 .middle img{
