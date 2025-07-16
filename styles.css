@@ -181,7 +181,11 @@ a:hover{
     align-items: center;
     justify-content: center;
     background-color: #3882F6;
-    padding: 20px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 8px;
+    padding: 20px 80px;
+    gap: 300px;
 }
 
 .footer-text{
@@ -194,18 +198,35 @@ a:hover{
 
 .footer-text p:nth-of-type(1){
     margin-bottom: -20px;
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.footer-text p:nth-of-type(2){
+    font-size: 20px;
+    color: #E5E7EB;
 }
 
 .footer-button{
-    width: 100px;
+    width: 140px;
     background-color: #3882F6;
     color: #f9FAF8;
     border-style:solid;
     border-radius: 5px;
-    padding: 10px 20px;
     border-color: #f9FAF8;
     border-width: 2.4px;
+    margin-left: -200px;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 6px 0px;
+}
+
+.footer-button:hover{
+    background-color: #04AA6D;
+}
+
+.footer-button:active{
+    background-color: white;
+    color: black;
 }
 
